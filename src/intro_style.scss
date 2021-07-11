@@ -1,0 +1,17 @@
+.Intro {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS';
+  
+    &__blinker {
+      animation: blinker 0.5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+      
+      @keyframes blinker {
+        to {
+          opacity: 0;
+        }
+      }
+    }
+  }
+  
