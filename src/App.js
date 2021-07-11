@@ -103,7 +103,7 @@ function App() {
                               <a href="https://www.facebook.com/prakashcena12/"><Fb style={{width:"30px",height:"30px",marginTop:"40px",marginLeft:"22px"}} /></a>
                               <a href="https://www.instagram.com/b.prakash_/"><Insta style={{width:"30px",height:"30px",marginLeft:"20px"}}/></a>
                               <a href="https://github.com/B2-sudo"><Git style={{width:"30px",height:"30px",marginLeft:"20px"}}/></a>
-                              <a href="https://twitter.com/Prakashcena12"><Tweet style={{width:"30px",height:"30px",marginLeft:"20px"}}/></a>
+                              <Tweet style={{width:"30px",height:"30px",marginLeft:"20px"}} onClick={()=>{history.push('/bwish')}}/>
                               <a href="https://linkedin.com/prakashcena12"><Link style={{width:"30px",height:"30px",marginLeft:"20px"}}/></a>
                                 
 
