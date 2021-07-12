@@ -6,7 +6,6 @@ import Favicon from 'react-favicon';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './About';
 import Album from './Album';
-import BWish from './BWish';
 
 const Root = () => (
   <Router>
@@ -14,7 +13,6 @@ const Root = () => (
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
       <Route path="/album" component={Album} />
-      <Route path="/bwish" component={BWish} />
     </Switch>
   </Router>
 );
