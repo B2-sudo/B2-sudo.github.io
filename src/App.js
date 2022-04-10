@@ -1,4 +1,4 @@
-import React,{useState,useCallback,useEffect} from 'react';
+import React,{useState,useEffect} from 'react';
 import { ThemeProvider } from 'styled-components';
 import ReactiveButton from 'reactive-button';
 import { useHistory } from 'react-router-dom';
@@ -59,11 +59,11 @@ function App() {
          idleText={'About Me'}
          type={'button'}
          className={'btn'}
-         style={{ borderRadius: '15px' }}
+         style={{ borderRadius: '15px',marginLeft:'60px' }}
          outline={false}
          shadow={false}
          rounded={false}
-         size={'normal'}
+         size={'extra-large'}
          block={false}
          disabled={false}
          buttonRef={null}
@@ -71,28 +71,6 @@ function App() {
          height={null}
          animation={true}
          onClick={()=>{history.push('/about')}}
-    />
-
-   
-
-
-      <ReactiveButton
-         color={'primary'}
-         idleText={'Album'}
-         type={'button'}
-         className={'btn2'}
-         style={{ borderRadius: '15px' }}
-         outline={false}
-         shadow={false}
-         rounded={false}
-         size={'normal'}
-         block={false}
-         disabled={false}
-         buttonRef={null}
-         width={null}
-         height={null}
-         animation={true}
-         onClick={()=>{history.push('/album')}}
     />
 
 </div>
