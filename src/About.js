@@ -44,9 +44,8 @@ function About(){
       <p>I'm a <Intro></Intro></p> </div>
       <div>
     <center> <p style={{textAlign:"center",margin:"auto"}}>
-        I'm currently in final year of BE in Information Technology from Birla Institute Of Technology,Mesra separating ACADEMICS from LEARNING. <br />
-        I'm currenty a Software Development Engineer In OYO ROOMS and I WILL NOT FIX YOUR COMPUTER.<br />
-        And Yes I'm That GUY who finds The Big Bang Theory Better than F.R.I.E.N.D.S .<br /> And I can also  cook but with a lot of help.         
+  I'm currenty a Software Development Engineer In OYO ROOMS,responsible for handling the Owner Wallets and reconciliations for a million rooms. In a hurry,will try to write more in future. 🤦 <br />
+         <br />     
         </p>        </center> 
         </div>
 

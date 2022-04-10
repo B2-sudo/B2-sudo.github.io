@@ -12,7 +12,6 @@ const Root = () => (
     <Switch>
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
-      <Route path="/album" component={Album} />
     </Switch>
   </Router>
 );
