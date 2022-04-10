@@ -44,7 +44,7 @@ function App() {
         <br></br>
         <br></br>
         <div>
-        <a  onClick={() => setIsViewerOpen(true)}><img src="/b_img.jpg" className="ima" alt="Person" ></img></a>
+        <a  onClick={() => setIsViewerOpen(true)}><img src="/b.jpg" className="ima" alt="Person" ></img></a>
 {isViewerOpen}{isViewerOpen && (<Timer></Timer>)}
 </div>
        
